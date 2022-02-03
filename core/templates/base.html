@@ -12,8 +12,20 @@
 <body>
     {% include 'header.html' %}
 
+    <main>
     {% block content %} {% endblock %}
+    </main>
 
     {% include 'footer.html' %}
 </body>
+
+<style>
+    html, main {
+        min-height: calc(100vh - 128px);
+    }
+
+    footer {
+        flex-shrink: 0;
+    }
+</style>
 </html>
