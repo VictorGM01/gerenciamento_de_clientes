@@ -1,7 +1,17 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    {% for field in form %}
 
-    {% endfor %}
+    {% if form.erros %}
+        {% for field in form %}
+            {% for error in field.errors%}
+                <div class="alert alert-danger" role="alert">
+                    <strong>{{ error|escape }}</strong>
+                </div>
+            {% endfor %}
+
+        {% endfor %}
+    {% endif %}
+
+    {{ form }}
 {% endblock %}
