@@ -2,8 +2,8 @@ from django.db import models
 
 
 class Customer(models.Model):
-    first_name = models.TextField(max_length=40)
-    last_name = models.TextField(max_length=40)
+    first_name = models.CharField(max_length=40)
+    last_name = models.CharField(max_length=40)
     email = models.EmailField()
     birth_date = models.DateField()
     area_code = models.CharField(max_length=3)

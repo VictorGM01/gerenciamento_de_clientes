@@ -7,8 +7,14 @@ class DateInput(forms.DateInput):
 
 
 class CustomerForm(forms.ModelForm):
-    first_name = forms.CharField(label="Nome")
-    last_name = forms.CharField(label="Sobrenome")
+    first_name = forms.CharField(
+        label="Nome",
+        error_messages={"max_length": "Limite de caracteres (40) excedido"}
+    )
+    last_name = forms.CharField(
+        label="Sobrenome",
+        error_messages={"max_length": "Limite de caracteres (40) excedido"}
+    )
     email = forms.EmailField(label="E-mail")
     birth_date = forms.DateField(label="Data de Nascimento", widget=DateInput())
     area_code = forms.RegexField(
