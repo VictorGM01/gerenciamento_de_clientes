@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.views.generic import ListView, CreateView
 from .models import Customer
+from .forms import CustomerForm
 
 
 class CustomerListView(ListView):
@@ -9,7 +10,7 @@ class CustomerListView(ListView):
     queryset = Customer.objects.all()
 
 
-class CusomerCreateView(CreateView):
+class CustomerCreateView(CreateView):
     template_name = "customer/customer.html"
     form_class = CustomerForm
 
