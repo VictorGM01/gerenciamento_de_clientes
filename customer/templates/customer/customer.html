@@ -1,4 +1,7 @@
 {% extends 'base.html' %}
+{% load crispy_forms_filters %}
+{% load crispy_forms_tags %}
+
 
 {% block content %}
 
@@ -13,5 +16,8 @@
         {% endfor %}
     {% endif %}
 
-    {{ form }}
+    <form method="post"> {% csrf_token %}
+        {{ form|crispy }}
+    <button type="submit" class="btn btn-outline-primary">Salvar</button>
+    </form>
 {% endblock %}
