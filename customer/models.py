@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 
 class Customer(models.Model):
@@ -14,6 +15,9 @@ class Customer(models.Model):
     created_date = models.DateTimeField(auto_now_add=True)  # Django armazena automaticamente a data de criação
     updated_date = models.DateTimeField(auto_now=True)  # Armazena data caso haja alteração
     active = models.BooleanField(default=True)
+
+    def get_absolute_url(self):
+        return reverse('customer:customer-update', kwargs={'id': self.id})
 
     def __str__(self):
         return f"{self.first_name} {self.last_name}"

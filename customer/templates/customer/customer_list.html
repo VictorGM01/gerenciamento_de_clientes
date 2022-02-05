@@ -20,7 +20,7 @@
         <tbody>
             {% for customer in customer_list %}
                 <tr>
-                    <td>{{ customer.first_name }}</td>
+                    <td><a href="{{ customer.get_absolute_url }}">{{ customer.first_name }}</a></td>
                     <td>{{ customer.city }}</td>
                     <td>({{ customer.area_code }}) {{ customer.phone_number }}</td>
                     <td>{{ customer.email }}</td>
