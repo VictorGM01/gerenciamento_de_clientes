@@ -19,6 +19,9 @@ class Customer(models.Model):
     def get_absolute_url(self):
         return reverse('customer:customer-update', kwargs={'id': self.id})
 
+    def get_delet_url(self):
+        return reverse('customer:customer-delete', kwargs={'id': self.id})
+
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
 
