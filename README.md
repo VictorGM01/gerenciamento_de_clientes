@@ -6,7 +6,8 @@ Sistema de gestão de clientes, com cadastro, listagem, exclusão e edição. Pr
 Projeto em finalização ✅
 
 ## Demonstração da Aplicação ▶
-<img src="https://cdn.discordapp.com/attachments/887123408838615101/940303503631478864/demonstracao.png">
+![image](https://user-images.githubusercontent.com/86068797/152844405-eb3c0860-2053-4d77-a9c7-03b7dd69cfd8.png)
+
 
 ## Acesso para Visualização da Aplicação
 ![image](https://user-images.githubusercontent.com/86068797/152844175-1350258f-1a55-4242-95a9-cc7d308491be.png)
