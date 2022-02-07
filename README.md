@@ -12,11 +12,13 @@ Sistema de gestão de clientes, com cadastro, listagem, exclusão e edição. Pr
 ## Status do projeto
 Projeto em finalização ✅
 
-## Demonstração da Aplicação ▶
+## Demonstração da Aplicação 💻
 ![image](https://user-images.githubusercontent.com/86068797/152844405-eb3c0860-2053-4d77-a9c7-03b7dd69cfd8.png)
 
+## Como rodar a aplicação ▶
+Acesse o link https://crm-dio-project.herokuapp.com/
 
-## Acesso para Visualização da Aplicação
+## Credenciais para Visualização da Aplicação
 ![image](https://user-images.githubusercontent.com/86068797/152844175-1350258f-1a55-4242-95a9-cc7d308491be.png)
 
 Usuário: **user_tester**
