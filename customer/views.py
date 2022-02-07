@@ -8,6 +8,7 @@ from django.shortcuts import get_object_or_404
 
 class CustomerListView(ListView):
     template_name = "customer/customer_list.html"
+    paginate_by = 5
     model = Customer
     queryset = Customer.objects.all()
 
