@@ -1,6 +1,13 @@
 # Gerenciamento de Clientes com Django
 Sistema de gestão de clientes, com cadastro, listagem, exclusão e edição. Projeto feito após acompanhamento do Laboratório da Digital Inovation One.
 
+## Funcionalidades
+- [x] Cadastrar novos clientes
+- [x] Listar clientes cadastrados
+- [x] Editar dados dos clientes
+- [x] Excluir clientes cadastrados
+- [x] Autenticação de usuários
+- [x] Paginação     
 
 ## Status do projeto
 Projeto em finalização ✅
