@@ -26,4 +26,4 @@ Senha: Tester123
 
 
 ## Desenvolvedor
-[<img src="https://avatars.githubusercontent.com/u/86068797?s=400&u=043c0b1479770ac997f0cf5a31c986a2815ce810&v=4" width=115 > <br> <sub> Victor G. Marques </sub>](https://github.com/Diana-ops) 
+[<img src="https://avatars.githubusercontent.com/u/86068797?s=400&u=043c0b1479770ac997f0cf5a31c986a2815ce810&v=4" width=115 > <br> <sub> Victor G. Marques </sub>](https://www.linkedin.com/in/victor-marques-profile/) 
